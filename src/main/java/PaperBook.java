@@ -1,7 +1,12 @@
+import java.math.BigDecimal;
+
 public class PaperBook extends Book{
 
-    public PaperBook() {
 
-        super( author, pageCounter );
+
+    public PaperBook(long id, String name, BigDecimal price, String author, int pageCounter) {
+
+        super(id, name,price, author, pageCounter );
+
     }
 }
